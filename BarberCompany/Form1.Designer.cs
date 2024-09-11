@@ -31,6 +31,8 @@
             label1 = new Label();
             button1 = new Button();
             txtName = new TextBox();
+            txtApeP = new TextBox();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -60,11 +62,29 @@
             txtName.Size = new Size(125, 27);
             txtName.TabIndex = 2;
             // 
+            // txtApeP
+            // 
+            txtApeP.Location = new Point(235, 218);
+            txtApeP.Name = "txtApeP";
+            txtApeP.Size = new Size(125, 27);
+            txtApeP.TabIndex = 4;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(75, 225);
+            label2.Name = "label2";
+            label2.Size = new Size(130, 20);
+            label2.TabIndex = 3;
+            label2.Text = "Ingresa tu nombre";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1002, 492);
+            Controls.Add(txtApeP);
+            Controls.Add(label2);
             Controls.Add(txtName);
             Controls.Add(button1);
             Controls.Add(label1);
@@ -79,5 +99,7 @@
         private Label label1;
         private Button button1;
         private TextBox txtName;
+        private TextBox txtApeP;
+        private Label label2;
     }
 }
