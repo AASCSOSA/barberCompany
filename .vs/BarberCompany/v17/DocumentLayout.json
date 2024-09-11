@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\models\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\models\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\models\\barber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\models\\barber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Form1.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Form1.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Form1.cs",
+              "RelativeToolTip": "BarberCompany\\Form1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T02:58:46.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BarberShopContext.cs",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Models\\BarberShopContext.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Models\\BarberShopContext.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Models\\BarberShopContext.cs",
+              "RelativeToolTip": "BarberCompany\\Models\\BarberShopContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T02:44:00.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Barber.cs",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Models\\Barber.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Models\\Barber.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Models\\Barber.cs",
+              "RelativeToolTip": "BarberCompany\\Models\\Barber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T02:44:00.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Form1.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Form1.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\BarberCompany\\BarberCompany\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BarberCompany\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T02:31:42.29Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
