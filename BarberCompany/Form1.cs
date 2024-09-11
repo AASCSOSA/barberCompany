@@ -21,13 +21,15 @@ namespace BarberCompany
             using (var context = new BarberShopContext())
             {
                 string nombre=txtName.Text;
+                string apellido= txtApeP.Text;
                 var barber = new Barber
                 {
-                    AvailabilityBarber = true,
+                    AvailabilityBarber = false,
                     ContactNumber = "2251182095",
-                    FatherLastName = "Sosa",
+                    FatherLastName = apellido,
                     MotherLastName = "Cruz",
                     NameBarber = nombre
+                    
                 };
                 context.Barbers.Add(barber);
                 context.SaveChanges();
