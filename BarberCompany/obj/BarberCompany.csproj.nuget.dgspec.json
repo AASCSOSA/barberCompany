@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj": {}
+    "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj": {
+    "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
+        "projectUniqueName": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
         "projectName": "BarberCompany",
-        "projectPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
+        "projectPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
         "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\obj\\",
+        "outputPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",

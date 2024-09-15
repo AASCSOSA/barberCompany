@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\",
+  "WorkspaceRootPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|c:\\users\\marco\\documents\\escuela\\7mo\\material\\servicios web\\1\\barbercompany\\barbercompany\\barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|c:\\users\\marco\\documents\\escuela\\7mo\\material\\fundamentos de c\u00F3mputo en la nube\\1\\barbercompany\\barbercompany\\barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\barbercompany\\forms\\formbarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formbarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|c:\\users\\marco\\documents\\escuela\\7mo\\material\\servicios web\\1\\barbercompany\\barbercompany\\barbercompany\\models\\barber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\models\\barber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|c:\\users\\marco\\documents\\escuela\\7mo\\material\\fundamentos de c\u00F3mputo en la nube\\1\\barbercompany\\barbercompany\\barbercompany\\forms\\formreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|c:\\users\\marco\\documents\\escuela\\7mo\\material\\servicios web\\1\\barbercompany\\barbercompany\\barbercompany\\models\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\models\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\barbercompany\\forms\\formreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|c:\\users\\marco\\documents\\escuela\\7mo\\material\\fundamentos de c\u00F3mputo en la nube\\1\\barbercompany\\barbercompany\\barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|c:\\users\\marco\\documents\\escuela\\7mo\\material\\fundamentos de c\u00F3mputo en la nube\\1\\barbercompany\\barbercompany\\barbercompany\\forms\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\barbercompany\\forms\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\barbercompany\\forms\\formupdatebarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formupdatebarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +42,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Form1.cs",
-              "RelativeDocumentMoniker": "BarberCompany\\Form1.cs",
-              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Form1.cs",
-              "RelativeToolTip": "BarberCompany\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAASAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FormReservation.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormReservation.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormReservation.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormReservation.cs",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormReservation.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T02:58:46.579Z",
+              "WhenOpened": "2024-09-13T18:00:37.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BarberShopContext.cs",
-              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Models\\BarberShopContext.cs",
-              "RelativeDocumentMoniker": "BarberCompany\\Models\\BarberShopContext.cs",
-              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Models\\BarberShopContext.cs",
-              "RelativeToolTip": "BarberCompany\\Models\\BarberShopContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "FormReservation.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormReservation.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormReservation.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormReservation.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormReservation.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T02:44:00.107Z"
+              "WhenOpened": "2024-09-13T18:00:32.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Barber.cs",
-              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Models\\Barber.cs",
-              "RelativeDocumentMoniker": "BarberCompany\\Models\\Barber.cs",
-              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Models\\Barber.cs",
-              "RelativeToolTip": "BarberCompany\\Models\\Barber.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FormHome.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormHome.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormHome.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormHome.cs",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormHome.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAlwCYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T02:44:00.397Z",
+              "WhenOpened": "2024-09-13T17:47:43.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormHome.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormHome.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormHome.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormHome.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormHome.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:47:41.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAddReservation.cs",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormAddReservation.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormAddReservation.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAhwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:47:00.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Form1.cs",
-              "RelativeDocumentMoniker": "BarberCompany\\Form1.cs",
-              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BarberCompany\\Form1.cs [Dise\u00F1o]",
+              "Title": "FormBarber.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormBarber.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormBarber.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormBarber.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormBarber.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T02:31:42.29Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-13T17:46:01.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormAddReservation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormAddReservation.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs [Design]",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormAddReservation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:45:04.84Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormUpdateBarber.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormUpdateBarber.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormUpdateBarber.cs",
+              "ToolTip": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE C\u00D3MPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\Forms\\FormUpdateBarber.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormUpdateBarber.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:46:13.84Z"
             }
           ]
         }

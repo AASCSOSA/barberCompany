@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "joz7YPskbxQ=",
+  "dgSpecHash": "6m18MQ+FSAM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\SERVICIOS WEB\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
+  "projectFilePath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marco\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Marco\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
