@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace BarberCompany.Forms
+﻿namespace BarberCompany.Forms
 {
     public partial class FormAddReservation : Form
     {
@@ -20,19 +10,22 @@ namespace BarberCompany.Forms
         private void labelHome_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FormHome f = new FormHome();
-            f.ShowDialog();
+            f.Show();
+            this.Hide();
         }
 
         private void lbBarber_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FormBarber f = new FormBarber();
-            f.ShowDialog();
+            f.Show();
+            this.Hide();
         }
 
         private void lbCities_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FormReservation f = new FormReservation();
-            f.ShowDialog();
+            f.Show();
+            this.Hide();
         }
     }
 }

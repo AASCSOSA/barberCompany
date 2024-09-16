@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             pbIcon = new PictureBox();
-            labelHome = new LinkLabel();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             lbBarber = new LinkLabel();
@@ -54,19 +53,6 @@
             pbIcon.TabIndex = 1;
             pbIcon.TabStop = false;
             // 
-            // labelHome
-            // 
-            labelHome.ActiveLinkColor = Color.Gainsboro;
-            labelHome.AutoSize = true;
-            labelHome.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelHome.LinkColor = Color.White;
-            labelHome.Location = new Point(1355, 27);
-            labelHome.Name = "labelHome";
-            labelHome.Size = new Size(85, 38);
-            labelHome.TabIndex = 2;
-            labelHome.TabStop = true;
-            labelHome.Text = "Inicio";
-            // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(236, 140, 43);
@@ -74,7 +60,6 @@
             panel1.Controls.Add(lbBarber);
             panel1.Controls.Add(lbCities);
             panel1.Controls.Add(lbServices);
-            panel1.Controls.Add(labelHome);
             panel1.ForeColor = SystemColors.ControlDark;
             panel1.Location = new Point(1, 1);
             panel1.Name = "panel1";
@@ -171,7 +156,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(41, 41, 41);
-            ClientSize = new Size(1924, 1033);
+            ClientSize = new Size(1902, 1033);
             Controls.Add(btnCities);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -179,6 +164,7 @@
             Controls.Add(pbIcon);
             Name = "FormHome";
             Text = "FormHome";
+            WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)pbIcon).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -189,7 +175,6 @@
 
         #endregion
         private PictureBox pbIcon;
-        private LinkLabel labelHome;
         private Panel panel1;
         private LinkLabel lbServices;
         private LinkLabel lbBarber;

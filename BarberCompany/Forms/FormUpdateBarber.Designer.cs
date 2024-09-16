@@ -31,11 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUpdateBarber));
             btnElimined = new Button();
             btnUpdateBarber = new Button();
-            txtFatherLastName = new TextBox();
-            txtContactNumber = new TextBox();
-            txtAvailabilityBarber = new TextBox();
-            txtMotherLastName = new TextBox();
-            txtName = new TextBox();
             label2 = new Label();
             label1 = new Label();
             lbTelephoneNumber = new Label();
@@ -43,6 +38,11 @@
             pictureBox1 = new PictureBox();
             lbNameBarber = new Label();
             txtId = new TextBox();
+            cbDisponibilidad = new ComboBox();
+            txtContactNumber = new TextBox();
+            txtMotherLastName = new TextBox();
+            txtFatherLastName = new TextBox();
+            txtName = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -65,44 +65,6 @@
             btnUpdateBarber.Text = "Actualizar";
             btnUpdateBarber.UseVisualStyleBackColor = true;
             btnUpdateBarber.Click += btnUpdateBarber_Click;
-            // 
-            // txtFatherLastName
-            // 
-            txtFatherLastName.Enabled = false;
-            txtFatherLastName.Location = new Point(379, 83);
-            txtFatherLastName.Name = "txtFatherLastName";
-            txtFatherLastName.Size = new Size(269, 27);
-            txtFatherLastName.TabIndex = 39;
-            // 
-            // txtContactNumber
-            // 
-            txtContactNumber.Location = new Point(379, 229);
-            txtContactNumber.Name = "txtContactNumber";
-            txtContactNumber.Size = new Size(269, 27);
-            txtContactNumber.TabIndex = 38;
-            // 
-            // txtAvailabilityBarber
-            // 
-            txtAvailabilityBarber.Location = new Point(379, 182);
-            txtAvailabilityBarber.Name = "txtAvailabilityBarber";
-            txtAvailabilityBarber.Size = new Size(269, 27);
-            txtAvailabilityBarber.TabIndex = 37;
-            // 
-            // txtMotherLastName
-            // 
-            txtMotherLastName.Enabled = false;
-            txtMotherLastName.Location = new Point(379, 133);
-            txtMotherLastName.Name = "txtMotherLastName";
-            txtMotherLastName.Size = new Size(269, 27);
-            txtMotherLastName.TabIndex = 36;
-            // 
-            // txtName
-            // 
-            txtName.Enabled = false;
-            txtName.Location = new Point(379, 38);
-            txtName.Name = "txtName";
-            txtName.Size = new Size(269, 27);
-            txtName.TabIndex = 35;
             // 
             // label2
             // 
@@ -177,20 +139,58 @@
             txtId.Name = "txtId";
             txtId.Size = new Size(269, 27);
             txtId.TabIndex = 42;
+            txtId.Visible = false;
+            // 
+            // cbDisponibilidad
+            // 
+            cbDisponibilidad.FormattingEnabled = true;
+            cbDisponibilidad.Items.AddRange(new object[] { "Disponible", "No Disponible" });
+            cbDisponibilidad.Location = new Point(379, 182);
+            cbDisponibilidad.Name = "cbDisponibilidad";
+            cbDisponibilidad.Size = new Size(269, 28);
+            cbDisponibilidad.TabIndex = 47;
+            // 
+            // txtContactNumber
+            // 
+            txtContactNumber.Location = new Point(379, 233);
+            txtContactNumber.Name = "txtContactNumber";
+            txtContactNumber.Size = new Size(269, 27);
+            txtContactNumber.TabIndex = 46;
+            // 
+            // txtMotherLastName
+            // 
+            txtMotherLastName.Location = new Point(379, 133);
+            txtMotherLastName.Name = "txtMotherLastName";
+            txtMotherLastName.Size = new Size(269, 27);
+            txtMotherLastName.TabIndex = 45;
+            // 
+            // txtFatherLastName
+            // 
+            txtFatherLastName.Location = new Point(379, 83);
+            txtFatherLastName.Name = "txtFatherLastName";
+            txtFatherLastName.Size = new Size(269, 27);
+            txtFatherLastName.TabIndex = 44;
+            // 
+            // txtName
+            // 
+            txtName.Location = new Point(379, 38);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(269, 27);
+            txtName.TabIndex = 43;
             // 
             // FormUpdateBarber
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(822, 309);
+            Controls.Add(cbDisponibilidad);
+            Controls.Add(txtContactNumber);
+            Controls.Add(txtMotherLastName);
+            Controls.Add(txtFatherLastName);
+            Controls.Add(txtName);
             Controls.Add(txtId);
             Controls.Add(btnElimined);
             Controls.Add(btnUpdateBarber);
-            Controls.Add(txtFatherLastName);
-            Controls.Add(txtContactNumber);
-            Controls.Add(txtAvailabilityBarber);
-            Controls.Add(txtMotherLastName);
-            Controls.Add(txtName);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(lbTelephoneNumber);
@@ -198,6 +198,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(lbNameBarber);
             Name = "FormUpdateBarber";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormUpdateBarber";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -208,11 +209,6 @@
 
         private Button btnElimined;
         private Button btnUpdateBarber;
-        private TextBox txtFatherLastName;
-        private TextBox txtContactNumber;
-        private TextBox txtAvailabilityBarber;
-        private TextBox txtMotherLastName;
-        private TextBox txtName;
         private Label label2;
         private Label label1;
         private Label lbTelephoneNumber;
@@ -220,5 +216,10 @@
         private PictureBox pictureBox1;
         private Label lbNameBarber;
         private TextBox txtId;
+        private ComboBox cbDisponibilidad;
+        private TextBox txtContactNumber;
+        private TextBox txtMotherLastName;
+        private TextBox txtFatherLastName;
+        private TextBox txtName;
     }
 }

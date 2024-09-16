@@ -1,7 +1,4 @@
 ﻿using BarberCompany.Models;
-using System;
-using System.Linq;
-using System.Windows.Forms;
 
 namespace BarberCompany.Forms
 {
@@ -22,7 +19,7 @@ namespace BarberCompany.Forms
             txtFatherLastName.Text = fatherName;
             txtMotherLastName.Text = motherName;
             txtContactNumber.Text = contact;
-            txtAvailabilityBarber.Text = availability;
+            cbDisponibilidad.Text = availability;
         }
 
         private void btnUpdateBarber_Click(object sender, EventArgs e)
@@ -32,6 +29,9 @@ namespace BarberCompany.Forms
                 // Buscar el barbero por su Id
                 var barber = context.Barbers.FirstOrDefault(b => b.IdBarber == barberId);
 
+
+
+
                 if (barber != null)
                 {
                     // Actualizar las propiedades del barbero con los valores del formulario
@@ -39,13 +39,13 @@ namespace BarberCompany.Forms
                     barber.FatherLastName = txtFatherLastName.Text;
                     barber.MotherLastName = txtMotherLastName.Text;
                     barber.ContactNumber = txtContactNumber.Text;
-                    barber.AvailabilityBarber = bool.TryParse(txtAvailabilityBarber.Text, out bool availability) ? availability : barber.AvailabilityBarber;
+                    barber.AvailabilityBarber = cbDisponibilidad.Text == "Disponible";
 
                     // Guardar los cambios en la base de datos
                     context.SaveChanges();
 
                     MessageBox.Show("La información del barbero se ha actualizado correctamente.");
-                    this.Close();
+
 
                 }
                 else

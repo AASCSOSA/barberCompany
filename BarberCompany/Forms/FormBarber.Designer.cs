@@ -55,7 +55,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1925, 90);
             panel1.TabIndex = 4;
-          
             // 
             // pictureBox1
             // 
@@ -66,7 +65,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
-          
+            // 
             // lbBarber
             // 
             lbBarber.ActiveLinkColor = Color.Gainsboro;
@@ -79,7 +78,6 @@
             lbBarber.TabIndex = 5;
             lbBarber.TabStop = true;
             lbBarber.Text = "Barberos";
-          
             // 
             // lbCities
             // 
@@ -92,7 +90,7 @@
             lbCities.TabIndex = 4;
             lbCities.TabStop = true;
             lbCities.Text = "Citas";
-            
+            lbCities.LinkClicked += lbCities_LinkClicked;
             // 
             // lbServices
             // 
@@ -106,7 +104,6 @@
             lbServices.TabIndex = 3;
             lbServices.TabStop = true;
             lbServices.Text = "Servicios";
-           
             // 
             // labelHome
             // 
@@ -132,7 +129,6 @@
             label1.Size = new Size(367, 50);
             label1.TabIndex = 5;
             label1.Text = "Barberos disponibles";
-           
             // 
             // flwBarbers
             // 
@@ -169,7 +165,7 @@
             Controls.Add(panel1);
             Name = "FormBarber";
             Text = "FormBarber";
-          
+            WindowState = FormWindowState.Maximized;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

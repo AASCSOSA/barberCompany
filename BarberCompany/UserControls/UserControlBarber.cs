@@ -1,8 +1,5 @@
 ﻿using BarberCompany.Forms;
 using BarberCompany.Models;
-using System;
-using System.Diagnostics.Contracts;
-using System.Windows.Forms;
 
 namespace BarberCompany
 {
@@ -36,15 +33,15 @@ namespace BarberCompany
 
         private void UserControlBarber_Click(object sender, EventArgs e)
         {
-            string id= lbId.Text;
-            string name = lbNameBarber.Text; 
+            string id = lbId.Text;
+            string name = lbNameBarber.Text;
             string fatherName = lbFatherName.Text;
             string motherName = lbMother.Text;
             string availability = lbAvilabilityBarber.Text;
             string contact = lbTelephoneNumber.Text;
 
 
-           FormUpdateBarber f = new FormUpdateBarber(name, availability, contact, fatherName, motherName, id);
+            FormUpdateBarber f = new FormUpdateBarber(name, availability, contact, fatherName, motherName, id);
             f.ShowDialog();
         }
     }
