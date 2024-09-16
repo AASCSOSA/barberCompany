@@ -16,4 +16,4 @@ namespace BarberCompany
             Application.Run(new FormHome());
         }
     }
-}   
+}

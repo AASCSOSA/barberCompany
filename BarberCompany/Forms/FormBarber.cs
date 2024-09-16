@@ -1,13 +1,4 @@
 ﻿using BarberCompany.Models;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace BarberCompany.Forms
 {
@@ -19,15 +10,14 @@ namespace BarberCompany.Forms
 
             LoadBarbers();
             flwBarbers.Padding = new Padding(40);
-
-
         }
 
         private void LoadBarbers()
         {
+            flwBarbers.Controls.Clear(); // Limpia los controles existentes
+
             using (var context = new BarberShopContext())
             {
-
                 var barbers = context.Barbers.ToList();
                 foreach (var barber in barbers)
                 {
@@ -39,21 +29,36 @@ namespace BarberCompany.Forms
 
         private void btnNewBarber_Click(object sender, EventArgs e)
         {
-            FormAddBarber form = new FormAddBarber();
-            form.ShowDialog();
-
+            // Crea una instancia de FormAddBarber y suscríbete al evento FormClosed
+            FormAddBarber f = new FormAddBarber();
+            f.FormClosed += (s, args) =>
+            {
+                LoadBarbers(); // Actualiza la lista de barberos cuando se cierra el formulario de agregar
+            };
+            f.Show();
         }
 
         private void labelHome_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FormHome f = new FormHome();
             f.Show();
-            f.Hide();
+            this.Hide();
         }
+
+
+
+
 
         private void flwBarbers_Paint(object sender, PaintEventArgs e)
         {
+            // Código de pintura (si es necesario)
+        }
 
+        private void lbCities_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormReservation f = new FormReservation();
+            f.Show();
+            this.Hide();
         }
     }
 }

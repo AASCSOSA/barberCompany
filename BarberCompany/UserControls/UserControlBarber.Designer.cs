@@ -43,12 +43,12 @@
             // 
             lbNameBarber.AutoSize = true;
             lbNameBarber.Font = new Font("Segoe UI", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbNameBarber.Location = new Point(80, 182);
+            lbNameBarber.Location = new Point(19, 182);
             lbNameBarber.Name = "lbNameBarber";
             lbNameBarber.Size = new Size(105, 31);
             lbNameBarber.TabIndex = 0;
             lbNameBarber.Text = "Nombre :";
-            lbNameBarber.TextAlign = ContentAlignment.MiddleCenter;
+            lbNameBarber.TextAlign = ContentAlignment.TopCenter;
             // 
             // pictureBox1
             // 
@@ -87,19 +87,19 @@
             // 
             lbFatherName.AutoSize = true;
             lbFatherName.Font = new Font("Segoe UI", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbFatherName.Location = new Point(191, 224);
+            lbFatherName.Location = new Point(130, 182);
             lbFatherName.Name = "lbFatherName";
             lbFatherName.Size = new Size(94, 31);
             lbFatherName.TabIndex = 4;
             lbFatherName.Text = "Apellido";
-            lbFatherName.TextAlign = ContentAlignment.MiddleCenter;
+            lbFatherName.TextAlign = ContentAlignment.TopCenter;
             lbFatherName.Visible = false;
             // 
             // lbMother
             // 
             lbMother.AutoSize = true;
             lbMother.Font = new Font("Segoe UI", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbMother.Location = new Point(191, 279);
+            lbMother.Location = new Point(76, 320);
             lbMother.Name = "lbMother";
             lbMother.Size = new Size(94, 31);
             lbMother.TabIndex = 5;
@@ -111,7 +111,7 @@
             // 
             lbId.AutoSize = true;
             lbId.Font = new Font("Segoe UI", 13.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            lbId.Location = new Point(82, 157);
+            lbId.Location = new Point(3, 83);
             lbId.Name = "lbId";
             lbId.Size = new Size(32, 31);
             lbId.TabIndex = 6;

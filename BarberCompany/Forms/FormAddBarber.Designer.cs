@@ -30,10 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAddBarber));
             btnAddBarber = new Button();
-            txtFatherLastName = new TextBox();
             txtContactNumber = new TextBox();
-            txtAvailabilityBarber = new TextBox();
             txtMotherLastName = new TextBox();
+            txtFatherLastName = new TextBox();
             txtName = new TextBox();
             label2 = new Label();
             label1 = new Label();
@@ -42,6 +41,7 @@
             pictureBox1 = new PictureBox();
             lbNameBarber = new Label();
             btnCanceled = new Button();
+            cbDisponibilidad = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -55,33 +55,26 @@
             btnAddBarber.UseVisualStyleBackColor = true;
             btnAddBarber.Click += btnAddBarber_Click;
             // 
-            // txtFatherLastName
-            // 
-            txtFatherLastName.Location = new Point(378, 86);
-            txtFatherLastName.Name = "txtFatherLastName";
-            txtFatherLastName.Size = new Size(269, 27);
-            txtFatherLastName.TabIndex = 26;
-            // 
             // txtContactNumber
             // 
-            txtContactNumber.Location = new Point(378, 232);
+            txtContactNumber.Location = new Point(378, 236);
             txtContactNumber.Name = "txtContactNumber";
             txtContactNumber.Size = new Size(269, 27);
-            txtContactNumber.TabIndex = 25;
-            // 
-            // txtAvailabilityBarber
-            // 
-            txtAvailabilityBarber.Location = new Point(378, 185);
-            txtAvailabilityBarber.Name = "txtAvailabilityBarber";
-            txtAvailabilityBarber.Size = new Size(269, 27);
-            txtAvailabilityBarber.TabIndex = 24;
+            txtContactNumber.TabIndex = 26;
             // 
             // txtMotherLastName
             // 
             txtMotherLastName.Location = new Point(378, 136);
             txtMotherLastName.Name = "txtMotherLastName";
             txtMotherLastName.Size = new Size(269, 27);
-            txtMotherLastName.TabIndex = 23;
+            txtMotherLastName.TabIndex = 25;
+            // 
+            // txtFatherLastName
+            // 
+            txtFatherLastName.Location = new Point(378, 86);
+            txtFatherLastName.Name = "txtFatherLastName";
+            txtFatherLastName.Size = new Size(269, 27);
+            txtFatherLastName.TabIndex = 23;
             // 
             // txtName
             // 
@@ -166,17 +159,26 @@
             btnCanceled.UseVisualStyleBackColor = true;
             btnCanceled.Click += btnCanceled_Click;
             // 
+            // cbDisponibilidad
+            // 
+            cbDisponibilidad.FormattingEnabled = true;
+            cbDisponibilidad.Items.AddRange(new object[] { "Disponible", "No Disponible" });
+            cbDisponibilidad.Location = new Point(378, 185);
+            cbDisponibilidad.Name = "cbDisponibilidad";
+            cbDisponibilidad.Size = new Size(269, 28);
+            cbDisponibilidad.TabIndex = 29;
+            // 
             // FormAddBarber
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 298);
+            Controls.Add(cbDisponibilidad);
             Controls.Add(btnCanceled);
             Controls.Add(btnAddBarber);
-            Controls.Add(txtFatherLastName);
             Controls.Add(txtContactNumber);
-            Controls.Add(txtAvailabilityBarber);
             Controls.Add(txtMotherLastName);
+            Controls.Add(txtFatherLastName);
             Controls.Add(txtName);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -185,6 +187,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(lbNameBarber);
             Name = "FormAddBarber";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormAddBarber";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -194,10 +197,9 @@
         #endregion
 
         private Button btnAddBarber;
-        private TextBox txtFatherLastName;
         private TextBox txtContactNumber;
-        private TextBox txtAvailabilityBarber;
         private TextBox txtMotherLastName;
+        private TextBox txtFatherLastName;
         private TextBox txtName;
         private Label label2;
         private Label label1;
@@ -206,5 +208,6 @@
         private PictureBox pictureBox1;
         private Label lbNameBarber;
         private Button btnCanceled;
+        private ComboBox cbDisponibilidad;
     }
 }
