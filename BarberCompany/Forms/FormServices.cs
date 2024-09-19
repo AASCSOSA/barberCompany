@@ -28,7 +28,8 @@ namespace BarberCompany.Forms
         private void btnCities_Click(object sender, EventArgs e)
         {
             // Crea una instancia de FormAddBarber y suscríbete al evento FormClosed
-            FormAddService f = new FormAddService();
+            FormAddServices f = new FormAddServices();
+
             f.FormClosed += (s, args) =>
             {
                 LoadServices(); // Actualiza la lista de barberos cuando se cierra el formulario de agregar
@@ -40,13 +41,15 @@ namespace BarberCompany.Forms
         {
             flwPanelService.Controls.Clear(); // Limpia los controles existentes
 
+
             using (var context = new BarberShopContext())
             {
                 var services = context.ServiceBarbers.ToList();
                 foreach (var service in services)
                 {
                     UserControlServiceHair userControl = new UserControlServiceHair(service);
-                    flwPanelService.Controls.Add(userControl);
+
+                    flowLayoutPanel1.Controls.Add(userControl);
                 }
             }
         }
@@ -55,7 +58,25 @@ namespace BarberCompany.Forms
         {
 
             // Crea una instancia de FormAddBarber y suscríbete al evento FormClosed
-            FormReservation f = new FormReservation();
+
+            FormAddReservation f = new FormAddReservation();
+            f.Show();
+            this.Hide();
+        }
+
+        private void btnCities_Click_1(object sender, EventArgs e)
+        {
+            FormAddServices f = new FormAddServices();
+            f.FormClosed += (s, args) =>
+            {
+                LoadServices(); // Actualiza la lista de barberos cuando se cierra el formulario de agregar
+            };
+            f.Show();
+        }
+
+        private void lbCities_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormAddReservation f = new FormAddReservation();
             f.Show();
             this.Hide();
         }

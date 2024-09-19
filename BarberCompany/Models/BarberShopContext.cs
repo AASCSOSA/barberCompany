@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace BarberCompany.Models;
 
@@ -25,13 +27,13 @@ public partial class BarberShopContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost;Database=barberShop;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=barberShop;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Barber>(entity =>
         {
-            entity.HasKey(e => e.IdBarber).HasName("PK__barber__2E4F5871F098095D");
+            entity.HasKey(e => e.IdBarber).HasName("PK__barber__2E4F587104CB2472");
 
             entity.ToTable("barber");
 
@@ -57,7 +59,7 @@ public partial class BarberShopContext : DbContext
 
         modelBuilder.Entity<Citation>(entity =>
         {
-            entity.HasKey(e => e.IdCitation).HasName("PK__citation__027614C9BB7FF83E");
+            entity.HasKey(e => e.IdCitation).HasName("PK__citation__027614C9BCEB6C4C");
 
             entity.ToTable("citation");
 
@@ -69,7 +71,7 @@ public partial class BarberShopContext : DbContext
 
         modelBuilder.Entity<ServiceBarber>(entity =>
         {
-            entity.HasKey(e => e.IdService).HasName("PK__serviceB__0E3EA45B6AC43821");
+            entity.HasKey(e => e.IdService).HasName("PK__serviceB__0E3EA45BBE72EE0F");
 
             entity.ToTable("serviceBarber");
 
@@ -89,7 +91,7 @@ public partial class BarberShopContext : DbContext
 
         modelBuilder.Entity<ServiceUser>(entity =>
         {
-            entity.HasKey(e => e.IdServiceUser).HasName("PK__serviceU__4B46C89FB0CA9E29");
+            entity.HasKey(e => e.IdServiceUser).HasName("PK__serviceU__4B46C89FF286CB64");
 
             entity.ToTable("serviceUser");
 
@@ -101,24 +103,24 @@ public partial class BarberShopContext : DbContext
 
             entity.HasOne(d => d.IdBarberNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdBarber)
-                .HasConstraintName("FK__serviceUs__idBar__3F466844");
+                .HasConstraintName("FK__serviceUs__idBar__5165187F");
 
             entity.HasOne(d => d.IdCitationNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdCitation)
-                .HasConstraintName("FK__serviceUs__idCit__4222D4EF");
+                .HasConstraintName("FK__serviceUs__idCit__5441852A");
 
             entity.HasOne(d => d.IdServiceNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdService)
-                .HasConstraintName("FK__serviceUs__idSer__412EB0B6");
+                .HasConstraintName("FK__serviceUs__idSer__534D60F1");
 
             entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdUser)
-                .HasConstraintName("FK__serviceUs__idUse__403A8C7D");
+                .HasConstraintName("FK__serviceUs__idUse__52593CB8");
         });
 
         modelBuilder.Entity<UserBarber>(entity =>
         {
-            entity.HasKey(e => e.IdUser).HasName("PK__userBarb__3717C982B405C4B5");
+            entity.HasKey(e => e.IdUser).HasName("PK__userBarb__3717C982FF1138E8");
 
             entity.ToTable("userBarber");
 

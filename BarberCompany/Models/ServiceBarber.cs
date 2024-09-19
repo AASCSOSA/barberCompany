@@ -1,4 +1,7 @@
-﻿namespace BarberCompany.Models;
+﻿using System;
+using System.Collections.Generic;
+
+namespace BarberCompany.Models;
 
 public partial class ServiceBarber
 {

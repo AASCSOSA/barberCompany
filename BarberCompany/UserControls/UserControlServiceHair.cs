@@ -29,5 +29,7 @@ namespace BarberCompany.UserControls
                 lbNameService.Text = "Servicio no disponible";
             }
         }
+
+
     }
 }
