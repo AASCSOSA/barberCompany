@@ -92,6 +92,7 @@
             lbCities.TabIndex = 4;
             lbCities.TabStop = true;
             lbCities.Text = "Citas";
+            lbCities.LinkClicked += lbCities_LinkClicked_1;
             // 
             // lbServices
             // 
@@ -143,10 +144,12 @@
             btnCities.TabIndex = 9;
             btnCities.Text = "Agendar Servicio";
             btnCities.UseVisualStyleBackColor = false;
+            btnCities.Click += btnCities_Click_1;
             // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AccessibleDescription = "flwService";
+            flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.Location = new Point(0, 238);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(1925, 801);

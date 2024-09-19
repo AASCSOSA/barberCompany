@@ -115,6 +115,7 @@
             lbServices.TabIndex = 3;
             lbServices.TabStop = true;
             lbServices.Text = "Servicios";
+            lbServices.LinkClicked += lbServices_LinkClicked;
             // 
             // label1
             // 
