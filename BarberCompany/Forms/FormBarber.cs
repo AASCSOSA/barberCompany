@@ -60,12 +60,5 @@ namespace BarberCompany.Forms
             f.Show();
             this.Hide();
         }
-
-        private void lbServices_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            FormServices f = new FormServices();
-            f.Show();
-            this.Hide();
-        }
     }
 }

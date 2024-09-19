@@ -1,5 +1,4 @@
-﻿using BarberCompany.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,23 +12,9 @@ namespace BarberCompany.UserControls
 {
     public partial class UserControlServiceHair : UserControl
     {
-        public UserControlServiceHair(ServiceBarber service)
+        public UserControlServiceHair()
         {
             InitializeComponent();
-            this.Margin = new Padding(20);
-
-            if (service != null)
-            {
-                lbNameService.Text = service.NameService;
-                lbDescriptionService.Text = service.DescriptionService;
-                lbCostService.Text = service.ServiceCost.ToString();
-            }
-            else
-            {
-                lbNameService.Text = "Servicio no disponible";
-            }
         }
-
-
     }
 }

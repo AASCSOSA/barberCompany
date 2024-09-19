@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace BarberCompany.Models;
+﻿namespace BarberCompany.Models;
 
 public partial class Citation
 {

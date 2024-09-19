@@ -1,14 +1,10 @@
-﻿using BarberCompany.Models;
-using BarberCompany.UserControls;
-
-namespace BarberCompany.Forms
+﻿namespace BarberCompany.Forms
 {
     public partial class FormServices : Form
     {
         public FormServices()
         {
             InitializeComponent();
-            LoadServices();
         }
 
         private void labelHome_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -24,6 +20,7 @@ namespace BarberCompany.Forms
             f.Show();
             this.Hide();
         }
+<<<<<<< HEAD
 
         private void btnCities_Click(object sender, EventArgs e)
         {
@@ -80,5 +77,7 @@ namespace BarberCompany.Forms
             f.Show();
             this.Hide();
         }
+=======
+>>>>>>> parent of 5ef43a1 (Se agrego el formulario de Servicios)
     }
 }
