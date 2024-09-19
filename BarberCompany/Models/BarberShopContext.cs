@@ -66,6 +66,7 @@ public partial class BarberShopContext : DbContext
             entity.Property(e => e.IdCitation).HasColumnName("idCitation");
             entity.Property(e => e.DateCitation).HasColumnName("dateCitation");
             entity.Property(e => e.HourCitation).HasColumnName("hourCitation");
+            entity.Property(e => e.NameUser).HasColumnName("nameUser");
         });
 
         modelBuilder.Entity<ServiceBarber>(entity =>

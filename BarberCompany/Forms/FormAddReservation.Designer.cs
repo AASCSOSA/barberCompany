@@ -39,20 +39,15 @@
             cbServices = new ComboBox();
             cbBarber = new ComboBox();
             label2 = new Label();
-            comboBox1 = new ComboBox();
+            cbDate = new ComboBox();
             label3 = new Label();
-            comboBox2 = new ComboBox();
+            cbTime = new ComboBox();
             label4 = new Label();
-            plResumen = new Panel();
-            label8 = new Label();
-            label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
-            lbResumen = new Label();
             btnNewReservation = new Button();
+            label9 = new Label();
+            txtName = new TextBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            plResumen.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -118,6 +113,7 @@
             lbServices.TabIndex = 3;
             lbServices.TabStop = true;
             lbServices.Text = "Servicios";
+            lbServices.LinkClicked += lbServices_LinkClicked;
             // 
             // labelHome
             // 
@@ -138,7 +134,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(72, 124);
+            label1.Location = new Point(86, 236);
             label1.Name = "label1";
             label1.Size = new Size(346, 46);
             label1.TabIndex = 6;
@@ -147,7 +143,8 @@
             // cbServices
             // 
             cbServices.FormattingEnabled = true;
-            cbServices.Location = new Point(72, 197);
+            cbServices.Items.AddRange(new object[] { "Corte de cabello", "Corte de barba" });
+            cbServices.Location = new Point(86, 309);
             cbServices.Name = "cbServices";
             cbServices.Size = new Size(863, 28);
             cbServices.TabIndex = 7;
@@ -156,142 +153,92 @@
             // cbBarber
             // 
             cbBarber.FormattingEnabled = true;
-            cbBarber.Location = new Point(72, 319);
+            cbBarber.Location = new Point(86, 431);
             cbBarber.Name = "cbBarber";
             cbBarber.Size = new Size(863, 28);
             cbBarber.TabIndex = 9;
-            cbBarber.Text = "Selecciona un barbero";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(72, 244);
+            label2.Location = new Point(86, 356);
             label2.Name = "label2";
             label2.Size = new Size(317, 46);
             label2.TabIndex = 8;
             label2.Text = "Seleccionar Barber";
             // 
-            // comboBox1
+            // cbDate
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(72, 460);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(863, 28);
-            comboBox1.TabIndex = 11;
-            comboBox1.Text = "Selecciona un fecha";
+            cbDate.FormattingEnabled = true;
+            cbDate.Location = new Point(86, 572);
+            cbDate.Name = "cbDate";
+            cbDate.Size = new Size(863, 28);
+            cbDate.TabIndex = 11;
+            cbDate.Text = "Selecciona un fecha";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(72, 385);
+            label3.Location = new Point(86, 497);
             label3.Name = "label3";
             label3.Size = new Size(300, 46);
             label3.TabIndex = 10;
             label3.Text = "Seleccionar Fecha";
             // 
-            // comboBox2
+            // cbTime
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(72, 606);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(863, 28);
-            comboBox2.TabIndex = 13;
-            comboBox2.Text = "Selecciona una hora";
+            cbTime.FormattingEnabled = true;
+            cbTime.Location = new Point(86, 718);
+            cbTime.Name = "cbTime";
+            cbTime.Size = new Size(863, 28);
+            cbTime.TabIndex = 13;
+            cbTime.Text = "Selecciona una hora";
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(72, 530);
+            label4.Location = new Point(86, 642);
             label4.Name = "label4";
             label4.Size = new Size(282, 46);
             label4.TabIndex = 12;
             label4.Text = " Selecionar Hora";
-            // 
-            // plResumen
-            // 
-            plResumen.BackColor = Color.FromArgb(121, 67, 13);
-            plResumen.Controls.Add(label8);
-            plResumen.Controls.Add(label7);
-            plResumen.Controls.Add(label6);
-            plResumen.Controls.Add(label5);
-            plResumen.Controls.Add(lbResumen);
-            plResumen.Location = new Point(72, 670);
-            plResumen.Name = "plResumen";
-            plResumen.Size = new Size(1589, 292);
-            plResumen.TabIndex = 14;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(50, 247);
-            label8.Name = "label8";
-            label8.Size = new Size(75, 28);
-            label8.TabIndex = 19;
-            label8.Text = "Hora : ";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label7.ForeColor = Color.White;
-            label7.Location = new Point(50, 201);
-            label7.Name = "label7";
-            label7.Size = new Size(77, 28);
-            label7.TabIndex = 18;
-            label7.Text = "Fecha :";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(29, 141);
-            label6.Name = "label6";
-            label6.Size = new Size(98, 28);
-            label6.TabIndex = 17;
-            label6.Text = "Barbero :";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(29, 80);
-            label5.Name = "label5";
-            label5.Size = new Size(99, 28);
-            label5.TabIndex = 16;
-            label5.Text = "Servicio :";
-            // 
-            // lbResumen
-            // 
-            lbResumen.AutoSize = true;
-            lbResumen.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbResumen.ForeColor = Color.White;
-            lbResumen.Location = new Point(29, 16);
-            lbResumen.Name = "lbResumen";
-            lbResumen.Size = new Size(344, 46);
-            lbResumen.TabIndex = 15;
-            lbResumen.Text = "Resumen de Reserva";
             // 
             // btnNewReservation
             // 
             btnNewReservation.BackColor = Color.FromArgb(236, 140, 43);
             btnNewReservation.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnNewReservation.ForeColor = Color.White;
-            btnNewReservation.Location = new Point(848, 970);
+            btnNewReservation.Location = new Point(1204, 392);
             btnNewReservation.Name = "btnNewReservation";
             btnNewReservation.Size = new Size(206, 51);
             btnNewReservation.TabIndex = 15;
             btnNewReservation.Text = "Confirmar cita";
             btnNewReservation.UseVisualStyleBackColor = false;
+            btnNewReservation.Click += btnNewReservation_Click;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.White;
+            label9.Location = new Point(86, 108);
+            label9.Name = "label9";
+            label9.Size = new Size(318, 46);
+            label9.TabIndex = 16;
+            label9.Text = "Ingrese su nombre";
+            // 
+            // txtName
+            // 
+            txtName.Location = new Point(86, 175);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(863, 27);
+            txtName.TabIndex = 17;
             // 
             // FormAddReservation
             // 
@@ -299,11 +246,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(41, 41, 41);
             ClientSize = new Size(1924, 1033);
+            Controls.Add(txtName);
+            Controls.Add(label9);
             Controls.Add(btnNewReservation);
-            Controls.Add(plResumen);
-            Controls.Add(comboBox2);
+            Controls.Add(cbTime);
             Controls.Add(label4);
-            Controls.Add(comboBox1);
+            Controls.Add(cbDate);
             Controls.Add(label3);
             Controls.Add(cbBarber);
             Controls.Add(label2);
@@ -315,8 +263,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            plResumen.ResumeLayout(false);
-            plResumen.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -333,16 +279,12 @@
         private ComboBox cbServices;
         private ComboBox cbBarber;
         private Label label2;
-        private ComboBox comboBox1;
+        private ComboBox cbDate;
         private Label label3;
-        private ComboBox comboBox2;
+        private ComboBox cbTime;
         private Label label4;
-        private Panel plResumen;
-        private Label label8;
-        private Label label7;
-        private Label label6;
-        private Label label5;
-        private Label lbResumen;
         private Button btnNewReservation;
+        private Label label9;
+        private TextBox txtName;
     }
 }

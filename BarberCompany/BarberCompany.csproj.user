@@ -7,7 +7,9 @@
     <Compile Update="Forms\FormAddReservation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\FormAddServices.cs">
+
+    <Compile Update="Forms\FormAddService.cs">
+
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\FormBarber.cs">
