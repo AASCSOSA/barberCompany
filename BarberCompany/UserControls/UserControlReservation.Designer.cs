@@ -32,12 +32,12 @@
             label1 = new Label();
             lbBarber = new Label();
             lbName = new Label();
-            label2 = new Label();
             btnElimined = new Button();
-            lbTelephoneInfo = new Label();
             lbNameInfo = new Label();
             lbBarberInfo = new Label();
             lbDate = new Label();
+            lbHour = new Label();
+            lbId = new Label();
             SuspendLayout();
             // 
             // lbServices
@@ -47,9 +47,9 @@
             lbServices.ForeColor = Color.White;
             lbServices.Location = new Point(56, 15);
             lbServices.Name = "lbServices";
-            lbServices.Size = new Size(97, 46);
+            lbServices.Size = new Size(145, 46);
             lbServices.TabIndex = 0;
-            lbServices.Text = "Citas";
+            lbServices.Text = "Cita No:";
             // 
             // label1
             // 
@@ -58,9 +58,9 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(56, 74);
             label1.Name = "label1";
-            label1.Size = new Size(84, 31);
+            label1.Size = new Size(156, 31);
             label1.TabIndex = 1;
-            label1.Text = "Fecha :";
+            label1.Text = "Hora y Fecha :";
             // 
             // lbBarber
             // 
@@ -84,39 +84,18 @@
             lbName.TabIndex = 3;
             lbName.Text = "Nombre :";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 13.8F);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(56, 243);
-            label2.Name = "label2";
-            label2.Size = new Size(111, 31);
-            label2.TabIndex = 4;
-            label2.Text = "Telefono :";
-            // 
             // btnElimined
             // 
             btnElimined.BackColor = Color.FromArgb(236, 140, 43);
             btnElimined.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnElimined.ForeColor = Color.White;
-            btnElimined.Location = new Point(599, 121);
+            btnElimined.Location = new Point(461, 131);
             btnElimined.Name = "btnElimined";
             btnElimined.Size = new Size(176, 51);
             btnElimined.TabIndex = 8;
             btnElimined.Text = "Cancelar";
             btnElimined.UseVisualStyleBackColor = false;
-            // 
-            // lbTelephoneInfo
-            // 
-            lbTelephoneInfo.AutoSize = true;
-            lbTelephoneInfo.Font = new Font("Segoe UI", 13.8F);
-            lbTelephoneInfo.ForeColor = Color.White;
-            lbTelephoneInfo.Location = new Point(192, 243);
-            lbTelephoneInfo.Name = "lbTelephoneInfo";
-            lbTelephoneInfo.Size = new Size(111, 31);
-            lbTelephoneInfo.TabIndex = 12;
-            lbTelephoneInfo.Text = "Telefono :";
+            btnElimined.Click += btnElimined_Click;
             // 
             // lbNameInfo
             // 
@@ -145,29 +124,51 @@
             lbDate.AutoSize = true;
             lbDate.Font = new Font("Segoe UI", 13.8F);
             lbDate.ForeColor = Color.White;
-            lbDate.Location = new Point(192, 74);
+            lbDate.Location = new Point(293, 74);
             lbDate.Name = "lbDate";
             lbDate.Size = new Size(84, 31);
             lbDate.TabIndex = 9;
             lbDate.Text = "Fecha :";
+            // 
+            // lbHour
+            // 
+            lbHour.AutoSize = true;
+            lbHour.Font = new Font("Segoe UI", 13.8F);
+            lbHour.ForeColor = Color.White;
+            lbHour.Location = new Point(207, 74);
+            lbHour.Name = "lbHour";
+            lbHour.Size = new Size(74, 31);
+            lbHour.TabIndex = 13;
+            lbHour.Text = "Hora :";
+            // 
+            // lbId
+            // 
+            lbId.AutoSize = true;
+            lbId.Font = new Font("Segoe UI", 13.8F);
+            lbId.ForeColor = Color.White;
+            lbId.Location = new Point(207, 26);
+            lbId.Name = "lbId";
+            lbId.Size = new Size(47, 31);
+            lbId.TabIndex = 14;
+            lbId.Text = "ID :";
             // 
             // UserControlReservation
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(121, 67, 13);
-            Controls.Add(lbTelephoneInfo);
+            Controls.Add(lbId);
+            Controls.Add(lbHour);
             Controls.Add(lbNameInfo);
             Controls.Add(lbBarberInfo);
             Controls.Add(lbDate);
             Controls.Add(btnElimined);
-            Controls.Add(label2);
             Controls.Add(lbName);
             Controls.Add(lbBarber);
             Controls.Add(label1);
             Controls.Add(lbServices);
             Name = "UserControlReservation";
-            Size = new Size(804, 293);
+            Size = new Size(671, 293);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -178,11 +179,11 @@
         private Label label1;
         private Label lbBarber;
         private Label lbName;
-        private Label label2;
         private Button btnElimined;
-        private Label lbTelephoneInfo;
         private Label lbNameInfo;
         private Label lbBarberInfo;
         private Label lbDate;
+        private Label lbHour;
+        private Label lbId;
     }
 }

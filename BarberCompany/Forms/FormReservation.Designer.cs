@@ -37,7 +37,6 @@
             labelHome = new LinkLabel();
             label1 = new Label();
             fwlPanelReservation = new FlowLayoutPanel();
-            flowLayoutPanel1 = new FlowLayoutPanel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -91,6 +90,7 @@
             lbCities.TabIndex = 4;
             lbCities.TabStop = true;
             lbCities.Text = "Citas";
+            lbCities.LinkClicked += lbCities_LinkClicked;
             // 
             // lbServices
             // 
@@ -104,6 +104,7 @@
             lbServices.TabIndex = 3;
             lbServices.TabStop = true;
             lbServices.Text = "Servicios";
+            lbServices.LinkClicked += lbServices_LinkClicked;
             // 
             // labelHome
             // 
@@ -135,15 +136,8 @@
             fwlPanelReservation.AutoScroll = true;
             fwlPanelReservation.Location = new Point(164, 360);
             fwlPanelReservation.Name = "fwlPanelReservation";
-            fwlPanelReservation.Size = new Size(1378, 668);
+            fwlPanelReservation.Size = new Size(1663, 668);
             fwlPanelReservation.TabIndex = 9;
-            // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.Location = new Point(1214, 323);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(250, 125);
-            flowLayoutPanel1.TabIndex = 10;
             // 
             // FormReservation
             // 
@@ -151,7 +145,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(41, 41, 41);
             ClientSize = new Size(1924, 1033);
-            Controls.Add(flowLayoutPanel1);
             Controls.Add(fwlPanelReservation);
             Controls.Add(label1);
             Controls.Add(panel1);

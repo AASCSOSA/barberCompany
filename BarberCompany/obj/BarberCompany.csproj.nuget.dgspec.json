@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Documentos\\7mo semestre\\Computo en la nube\\Mapache bigoton\\barberCompany\\BarberCompany\\BarberCompany.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Documentos\\7mo semestre\\Computo en la nube\\Mapache bigoton\\barberCompany\\BarberCompany\\BarberCompany.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documentos\\7mo semestre\\Computo en la nube\\Mapache bigoton\\barberCompany\\BarberCompany\\BarberCompany.csproj",
         "projectName": "BarberCompany",
-        "projectPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\BarberCompany.csproj",
-        "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marco\\Documents\\ESCUELA\\7mo\\MATERIAL\\FUNDAMENTOS DE CÓMPUTO EN LA NUBE\\1\\barberCompany\\barberCompany\\BarberCompany\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\7mo semestre\\Computo en la nube\\Mapache bigoton\\barberCompany\\BarberCompany\\BarberCompany.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\7mo semestre\\Computo en la nube\\Mapache bigoton\\barberCompany\\BarberCompany\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

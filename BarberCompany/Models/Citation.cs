@@ -8,5 +8,7 @@ public partial class Citation
 
     public TimeOnly HourCitation { get; set; }
 
+    public string NameUser { get; set; } = null!;
+
     public virtual ICollection<ServiceUser> ServiceUsers { get; set; } = new List<ServiceUser>();
 }

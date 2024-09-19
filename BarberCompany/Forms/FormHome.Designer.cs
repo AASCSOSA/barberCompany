@@ -46,7 +46,7 @@
             // pbIcon
             // 
             pbIcon.Image = (Image)resources.GetObject("pbIcon.Image");
-            pbIcon.Location = new Point(825, 218);
+            pbIcon.Location = new Point(780, 218);
             pbIcon.Name = "pbIcon";
             pbIcon.Size = new Size(323, 303);
             pbIcon.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -115,6 +115,7 @@
             lbServices.TabIndex = 3;
             lbServices.TabStop = true;
             lbServices.Text = "Servicios";
+            lbServices.LinkClicked += lbServices_LinkClicked;
             // 
             // label1
             // 

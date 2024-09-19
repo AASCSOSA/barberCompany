@@ -36,9 +36,9 @@
             lbServices = new LinkLabel();
             labelHome = new LinkLabel();
             label1 = new Label();
-            btnCities = new Button();
+            btnAddService = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            flowLayoutPanel1 = new FlowLayoutPanel();
+            flwPanelService = new FlowLayoutPanel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -92,6 +92,7 @@
             lbCities.TabIndex = 4;
             lbCities.TabStop = true;
             lbCities.Text = "Citas";
+            lbCities.LinkClicked += lbCities_LinkClicked;
             // 
             // lbServices
             // 
@@ -131,26 +132,27 @@
             label1.TabIndex = 8;
             label1.Text = "Servicios";
             // 
-            // btnCities
+            // btnAddService
             // 
-            btnCities.AccessibleDescription = "btnServiceAdd";
-            btnCities.BackColor = Color.FromArgb(236, 140, 43);
-            btnCities.Font = new Font("Segoe UI Black", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnCities.ForeColor = Color.White;
-            btnCities.Location = new Point(806, 128);
-            btnCities.Name = "btnCities";
-            btnCities.Size = new Size(277, 69);
-            btnCities.TabIndex = 9;
-            btnCities.Text = "Agendar Servicio";
-            btnCities.UseVisualStyleBackColor = false;
+            btnAddService.AccessibleDescription = "btnServiceAdd";
+            btnAddService.BackColor = Color.FromArgb(236, 140, 43);
+            btnAddService.Font = new Font("Segoe UI Black", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAddService.ForeColor = Color.White;
+            btnAddService.Location = new Point(806, 128);
+            btnAddService.Name = "btnAddService";
+            btnAddService.Size = new Size(277, 69);
+            btnAddService.TabIndex = 9;
+            btnAddService.Text = "Agregar Servicio";
+            btnAddService.UseVisualStyleBackColor = false;
+            btnAddService.Click += btnCities_Click;
             // 
-            // flowLayoutPanel1
+            // flwPanelService
             // 
-            flowLayoutPanel1.AccessibleDescription = "flwService";
-            flowLayoutPanel1.Location = new Point(0, 238);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1925, 801);
-            flowLayoutPanel1.TabIndex = 10;
+            flwPanelService.AccessibleDescription = "flwService";
+            flwPanelService.Location = new Point(0, 238);
+            flwPanelService.Name = "flwPanelService";
+            flwPanelService.Size = new Size(1925, 801);
+            flwPanelService.TabIndex = 10;
             // 
             // FormServices
             // 
@@ -158,8 +160,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(41, 41, 41);
             ClientSize = new Size(1924, 1033);
-            Controls.Add(flowLayoutPanel1);
-            Controls.Add(btnCities);
+            Controls.Add(flwPanelService);
+            Controls.Add(btnAddService);
             Controls.Add(label1);
             Controls.Add(panel1);
             Name = "FormServices";
@@ -180,8 +182,8 @@
         private LinkLabel lbServices;
         private LinkLabel labelHome;
         private Label label1;
-        private Button btnCities;
+        private Button btnAddService;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private FlowLayoutPanel flwPanelService;
     }
 }
