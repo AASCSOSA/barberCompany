@@ -32,15 +32,14 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
+            lbNameService = new Label();
+            lbDescriptionService = new Label();
+            lbCostService = new Label();
             ((System.ComponentModel.ISupportInitialize)Cabello).BeginInit();
             SuspendLayout();
             // 
             // Cabello
             // 
-            Cabello.Image = Properties.Resources.cabello;
             Cabello.Location = new Point(97, 10);
             Cabello.Name = "Cabello";
             Cabello.Size = new Size(228, 241);
@@ -84,50 +83,50 @@
             label3.TabIndex = 3;
             label3.Text = "Costo:";
             // 
-            // label4
+            // lbNameService
             // 
-            label4.AccessibleDescription = "lbNombreServicio";
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 15F);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(200, 283);
-            label4.Name = "label4";
-            label4.Size = new Size(189, 35);
-            label4.TabIndex = 4;
-            label4.Text = "nombreServicio";
+            lbNameService.AccessibleDescription = "lbNombreServicio";
+            lbNameService.AutoSize = true;
+            lbNameService.Font = new Font("Segoe UI", 15F);
+            lbNameService.ForeColor = Color.White;
+            lbNameService.Location = new Point(200, 283);
+            lbNameService.Name = "lbNameService";
+            lbNameService.Size = new Size(189, 35);
+            lbNameService.TabIndex = 4;
+            lbNameService.Text = "nombreServicio";
             // 
-            // label5
+            // lbDescriptionService
             // 
-            label5.AccessibleDescription = "lbServiceDescripcionNombre";
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 15F);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(200, 371);
-            label5.Name = "label5";
-            label5.Size = new Size(239, 35);
-            label5.TabIndex = 5;
-            label5.Text = "DescripciónNombre";
+            lbDescriptionService.AccessibleDescription = "lbServiceDescripcionNombre";
+            lbDescriptionService.AutoSize = true;
+            lbDescriptionService.Font = new Font("Segoe UI", 15F);
+            lbDescriptionService.ForeColor = Color.White;
+            lbDescriptionService.Location = new Point(184, 371);
+            lbDescriptionService.Name = "lbDescriptionService";
+            lbDescriptionService.Size = new Size(239, 35);
+            lbDescriptionService.TabIndex = 5;
+            lbDescriptionService.Text = "DescripciónNombre";
             // 
-            // label6
+            // lbCostService
             // 
-            label6.AccessibleDescription = "lbServiceCostCosto";
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 15F);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(200, 447);
-            label6.Name = "label6";
-            label6.Size = new Size(143, 35);
-            label6.TabIndex = 6;
-            label6.Text = "CostoCosto";
+            lbCostService.AccessibleDescription = "lbServiceCostCosto";
+            lbCostService.AutoSize = true;
+            lbCostService.Font = new Font("Segoe UI", 15F);
+            lbCostService.ForeColor = Color.White;
+            lbCostService.Location = new Point(200, 447);
+            lbCostService.Name = "lbCostService";
+            lbCostService.Size = new Size(143, 35);
+            lbCostService.TabIndex = 6;
+            lbCostService.Text = "CostoCosto";
             // 
             // UserControlServiceHair
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(121, 67, 13);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
+            Controls.Add(lbCostService);
+            Controls.Add(lbDescriptionService);
+            Controls.Add(lbNameService);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -145,8 +144,8 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
+        private Label lbNameService;
+        private Label lbDescriptionService;
+        private Label lbCostService;
     }
 }
