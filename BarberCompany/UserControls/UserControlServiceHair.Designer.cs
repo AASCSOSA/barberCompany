@@ -40,7 +40,7 @@
             // 
             // Cabello
             // 
-            Cabello.Image = Properties.Resources.cabello;
+            //Cabello.Image = Properties.Resources.cabello;
             Cabello.Location = new Point(97, 10);
             Cabello.Name = "Cabello";
             Cabello.Size = new Size(228, 241);
