@@ -143,10 +143,12 @@
             btnCities.TabIndex = 9;
             btnCities.Text = "Agendar Servicio";
             btnCities.UseVisualStyleBackColor = false;
+            btnCities.Click += btnCities_Click;
             // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AccessibleDescription = "flwService";
+            flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.Location = new Point(0, 238);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(1925, 801);
@@ -156,6 +158,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             BackColor = Color.FromArgb(41, 41, 41);
             ClientSize = new Size(1924, 1033);
             Controls.Add(flowLayoutPanel1);
