@@ -20,6 +20,4 @@ public partial class ServiceUser
     public virtual Citation? IdCitationNavigation { get; set; }
 
     public virtual ServiceBarber? IdServiceNavigation { get; set; }
-
-    public virtual UserBarber? IdUserNavigation { get; set; }
 }

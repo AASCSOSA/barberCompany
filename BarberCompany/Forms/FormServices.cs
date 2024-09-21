@@ -49,5 +49,12 @@ namespace BarberCompany.Forms
             };
             f.Show();
         }
+
+        private void lbCities_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormReservation f = new FormReservation();
+            f.Show();
+            this.Hide();
+        }
     }
 }

@@ -23,17 +23,15 @@ public partial class BarberShopContext : DbContext
 
     public virtual DbSet<ServiceUser> ServiceUsers { get; set; }
 
-    public virtual DbSet<UserBarber> UserBarbers { get; set; }
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=barberShop;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=localhost;Database=barberShop;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Barber>(entity =>
         {
-            entity.HasKey(e => e.IdBarber).HasName("PK__barber__2E4F587104CB2472");
+            entity.HasKey(e => e.IdBarber).HasName("PK__barber__2E4F58711C0D5495");
 
             entity.ToTable("barber");
 
@@ -59,18 +57,22 @@ public partial class BarberShopContext : DbContext
 
         modelBuilder.Entity<Citation>(entity =>
         {
-            entity.HasKey(e => e.IdCitation).HasName("PK__citation__027614C9BCEB6C4C");
+            entity.HasKey(e => e.IdCitation).HasName("PK__citation__027614C959255FE8");
 
             entity.ToTable("citation");
 
             entity.Property(e => e.IdCitation).HasColumnName("idCitation");
             entity.Property(e => e.DateCitation).HasColumnName("dateCitation");
             entity.Property(e => e.HourCitation).HasColumnName("hourCitation");
+            entity.Property(e => e.NameUser)
+                .HasMaxLength(120)
+                .IsUnicode(false)
+                .HasColumnName("nameUser");
         });
 
         modelBuilder.Entity<ServiceBarber>(entity =>
         {
-            entity.HasKey(e => e.IdService).HasName("PK__serviceB__0E3EA45BBE72EE0F");
+            entity.HasKey(e => e.IdService).HasName("PK__serviceB__0E3EA45B287B0250");
 
             entity.ToTable("serviceBarber");
 
@@ -90,7 +92,7 @@ public partial class BarberShopContext : DbContext
 
         modelBuilder.Entity<ServiceUser>(entity =>
         {
-            entity.HasKey(e => e.IdServiceUser).HasName("PK__serviceU__4B46C89FF286CB64");
+            entity.HasKey(e => e.IdServiceUser).HasName("PK__serviceU__4B46C89FC0060083");
 
             entity.ToTable("serviceUser");
 
@@ -102,44 +104,15 @@ public partial class BarberShopContext : DbContext
 
             entity.HasOne(d => d.IdBarberNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdBarber)
-                .HasConstraintName("FK__serviceUs__idBar__5165187F");
+                .HasConstraintName("FK__serviceUs__idBar__2A4B4B5E");
 
             entity.HasOne(d => d.IdCitationNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdCitation)
-                .HasConstraintName("FK__serviceUs__idCit__5441852A");
+                .HasConstraintName("FK__serviceUs__idCit__2C3393D0");
 
             entity.HasOne(d => d.IdServiceNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdService)
-                .HasConstraintName("FK__serviceUs__idSer__534D60F1");
-
-            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.ServiceUsers)
-                .HasForeignKey(d => d.IdUser)
-                .HasConstraintName("FK__serviceUs__idUse__52593CB8");
-        });
-
-        modelBuilder.Entity<UserBarber>(entity =>
-        {
-            entity.HasKey(e => e.IdUser).HasName("PK__userBarb__3717C982FF1138E8");
-
-            entity.ToTable("userBarber");
-
-            entity.Property(e => e.IdUser).HasColumnName("idUser");
-            entity.Property(e => e.ContactNumber)
-                .HasMaxLength(10)
-                .IsUnicode(false)
-                .HasColumnName("contactNumber");
-            entity.Property(e => e.FatherLastName)
-                .HasMaxLength(10)
-                .IsUnicode(false)
-                .HasColumnName("fatherLastName");
-            entity.Property(e => e.MotherLastName)
-                .HasMaxLength(10)
-                .IsUnicode(false)
-                .HasColumnName("motherLastName");
-            entity.Property(e => e.NameUser)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("nameUser");
+                .HasConstraintName("FK__serviceUs__idSer__2B3F6F97");
         });
 
         OnModelCreatingPartial(modelBuilder);

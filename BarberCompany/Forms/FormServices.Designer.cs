@@ -92,6 +92,7 @@
             lbCities.TabIndex = 4;
             lbCities.TabStop = true;
             lbCities.Text = "Citas";
+            lbCities.LinkClicked += lbCities_LinkClicked;
             // 
             // lbServices
             // 
