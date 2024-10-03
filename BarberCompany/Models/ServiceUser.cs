@@ -15,9 +15,15 @@ public partial class ServiceUser
 
     public int? IdCitation { get; set; }
 
+    public int? IdBarberShop { get; set; }
+
     public virtual Barber? IdBarberNavigation { get; set; }
+
+    public virtual BarberShop? IdBarberShopNavigation { get; set; }
 
     public virtual Citation? IdCitationNavigation { get; set; }
 
     public virtual ServiceBarber? IdServiceNavigation { get; set; }
+
+    public virtual UserBarber? IdUserNavigation { get; set; }
 }

@@ -17,5 +17,9 @@ public partial class Barber
 
     public bool? AvailabilityBarber { get; set; }
 
+    public int? IdBarberShop { get; set; }
+
+    public virtual BarberShop? IdBarberShopNavigation { get; set; }
+
     public virtual ICollection<ServiceUser> ServiceUsers { get; set; } = new List<ServiceUser>();
 }
