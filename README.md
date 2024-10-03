@@ -18,7 +18,7 @@ Antes de comenzar, asegúrate de que tienes lo siguiente instalado en tu máquin
 Clona este repositorio en tu máquina local ejecutando el siguiente comando en tu terminal o línea de comandos:
 
 ```bash
-git clone https://github.com/usuario/barberShop.git
+git clone https://github.com/AASCSOSA/barberCompany.git
 ```
 
 ### Configuración de la base de datos
