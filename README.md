@@ -10,8 +10,10 @@ Antes de comenzar, asegúrate de que tienes lo siguiente instalado en tu máquin
 - [SQL Server](https://www.microsoft.com/en-us/sql-server)
 - [.NET Core SDK](https://dotnet.microsoft.com/download)
 - [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+
 ##Base de datos
 La base de datos se encuentra lista en la carpeta Bd
+
 ## Configuración del proyecto
 
 ### Clonar el repositorio
