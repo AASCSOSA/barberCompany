@@ -59,17 +59,19 @@
             panel1.Controls.Add(lbServices);
             panel1.Controls.Add(labelHome);
             panel1.ForeColor = SystemColors.ControlDark;
-            panel1.Location = new Point(1, -6);
+            panel1.Location = new Point(1, -4);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1925, 97);
+            panel1.Size = new Size(1684, 73);
             panel1.TabIndex = 5;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(23, 13);
+            pictureBox1.Location = new Point(20, 10);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(57, 54);
+            pictureBox1.Size = new Size(50, 40);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -80,9 +82,9 @@
             lbBarber.AutoSize = true;
             lbBarber.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbBarber.LinkColor = Color.White;
-            lbBarber.Location = new Point(1728, 27);
+            lbBarber.Location = new Point(1512, 20);
             lbBarber.Name = "lbBarber";
-            lbBarber.Size = new Size(130, 38);
+            lbBarber.Size = new Size(100, 30);
             lbBarber.TabIndex = 5;
             lbBarber.TabStop = true;
             lbBarber.Text = "Barberos";
@@ -93,9 +95,9 @@
             lbCities.AutoSize = true;
             lbCities.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbCities.LinkColor = Color.White;
-            lbCities.Location = new Point(1621, 27);
+            lbCities.Location = new Point(1418, 20);
             lbCities.Name = "lbCities";
-            lbCities.Size = new Size(78, 38);
+            lbCities.Size = new Size(61, 30);
             lbCities.TabIndex = 4;
             lbCities.TabStop = true;
             lbCities.Text = "Citas";
@@ -107,9 +109,9 @@
             lbServices.AutoSize = true;
             lbServices.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbServices.LinkColor = Color.White;
-            lbServices.Location = new Point(1469, 27);
+            lbServices.Location = new Point(1285, 20);
             lbServices.Name = "lbServices";
-            lbServices.Size = new Size(127, 38);
+            lbServices.Size = new Size(100, 30);
             lbServices.TabIndex = 3;
             lbServices.TabStop = true;
             lbServices.Text = "Servicios";
@@ -121,9 +123,9 @@
             labelHome.AutoSize = true;
             labelHome.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelHome.LinkColor = Color.White;
-            labelHome.Location = new Point(1355, 27);
+            labelHome.Location = new Point(1186, 20);
             labelHome.Name = "labelHome";
-            labelHome.Size = new Size(85, 38);
+            labelHome.Size = new Size(67, 30);
             labelHome.TabIndex = 2;
             labelHome.TabStop = true;
             labelHome.Text = "Inicio";
@@ -134,47 +136,51 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(63, 256);
+            label1.Location = new Point(55, 192);
             label1.Name = "label1";
-            label1.Size = new Size(346, 46);
+            label1.Size = new Size(280, 37);
             label1.TabIndex = 6;
             label1.Text = "Seleccionar Servicio ";
             // 
             // cbServices
             // 
             cbServices.FormattingEnabled = true;
-            cbServices.Location = new Point(63, 329);
+            cbServices.Location = new Point(55, 247);
+            cbServices.Margin = new Padding(3, 2, 3, 2);
             cbServices.Name = "cbServices";
-            cbServices.Size = new Size(863, 28);
+            cbServices.Size = new Size(756, 23);
             cbServices.TabIndex = 7;
             cbServices.Text = "Seleccion un servicio";
             // 
             // cbBarber
             // 
             cbBarber.FormattingEnabled = true;
-            cbBarber.Location = new Point(63, 451);
+            cbBarber.Location = new Point(55, 338);
+            cbBarber.Margin = new Padding(3, 2, 3, 2);
             cbBarber.Name = "cbBarber";
-            cbBarber.Size = new Size(863, 28);
+            cbBarber.Size = new Size(756, 23);
             cbBarber.TabIndex = 9;
             cbBarber.Text = "Selecciona un barbero";
+            cbBarber.SelectedIndexChanged += cbBarber_SelectedIndexChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(63, 376);
+            label2.Location = new Point(55, 282);
             label2.Name = "label2";
-            label2.Size = new Size(317, 46);
+            label2.Size = new Size(256, 37);
             label2.TabIndex = 8;
             label2.Text = "Seleccionar Barber";
             // 
             // cbDate
             // 
             cbDate.FormattingEnabled = true;
-            cbDate.Location = new Point(63, 592);
+            cbDate.Location = new Point(55, 444);
+            cbDate.Margin = new Padding(3, 2, 3, 2);
             cbDate.Name = "cbDate";
-            cbDate.Size = new Size(863, 28);
+            cbDate.Size = new Size(756, 23);
             cbDate.TabIndex = 11;
             cbDate.Text = "Selecciona un fecha";
             // 
@@ -183,18 +189,19 @@
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(63, 517);
+            label3.Location = new Point(55, 388);
             label3.Name = "label3";
-            label3.Size = new Size(300, 46);
+            label3.Size = new Size(243, 37);
             label3.TabIndex = 10;
             label3.Text = "Seleccionar Fecha";
             // 
             // cbHour
             // 
             cbHour.FormattingEnabled = true;
-            cbHour.Location = new Point(63, 738);
+            cbHour.Location = new Point(55, 554);
+            cbHour.Margin = new Padding(3, 2, 3, 2);
             cbHour.Name = "cbHour";
-            cbHour.Size = new Size(863, 28);
+            cbHour.Size = new Size(756, 23);
             cbHour.TabIndex = 13;
             cbHour.Text = "Selecciona una hora";
             // 
@@ -203,9 +210,9 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(63, 662);
+            label4.Location = new Point(55, 496);
             label4.Name = "label4";
-            label4.Size = new Size(282, 46);
+            label4.Size = new Size(228, 37);
             label4.TabIndex = 12;
             label4.Text = " Selecionar Hora";
             // 
@@ -214,9 +221,10 @@
             btnNewReservation.BackColor = Color.FromArgb(236, 140, 43);
             btnNewReservation.Font = new Font("Segoe UI Semibold", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btnNewReservation.ForeColor = Color.White;
-            btnNewReservation.Location = new Point(1106, 530);
+            btnNewReservation.Location = new Point(968, 398);
+            btnNewReservation.Margin = new Padding(3, 2, 3, 2);
             btnNewReservation.Name = "btnNewReservation";
-            btnNewReservation.Size = new Size(206, 51);
+            btnNewReservation.Size = new Size(180, 38);
             btnNewReservation.TabIndex = 15;
             btnNewReservation.Text = "Confirmar cita";
             btnNewReservation.UseVisualStyleBackColor = false;
@@ -227,25 +235,26 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(63, 113);
+            label5.Location = new Point(55, 85);
             label5.Name = "label5";
-            label5.Size = new Size(318, 46);
+            label5.Size = new Size(255, 37);
             label5.TabIndex = 16;
             label5.Text = "Ingrese su nombre";
             // 
             // txtUser
             // 
-            txtUser.Location = new Point(63, 182);
+            txtUser.Location = new Point(55, 136);
+            txtUser.Margin = new Padding(3, 2, 3, 2);
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(863, 27);
+            txtUser.Size = new Size(756, 23);
             txtUser.TabIndex = 18;
             // 
             // FormAddReservation
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(41, 41, 41);
-            ClientSize = new Size(1924, 1033);
+            ClientSize = new Size(1684, 775);
             Controls.Add(txtUser);
             Controls.Add(label5);
             Controls.Add(btnNewReservation);
@@ -258,6 +267,7 @@
             Controls.Add(cbServices);
             Controls.Add(label1);
             Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormAddReservation";
             Text = "FormAddReservation";
             panel1.ResumeLayout(false);

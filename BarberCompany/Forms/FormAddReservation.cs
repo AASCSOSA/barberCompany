@@ -111,13 +111,14 @@ namespace BarberCompany.Forms
                 string fechaSeleccionada = cbDate.SelectedItem.ToString();
                 DateOnly fecha = DateOnly.ParseExact(fechaSeleccionada, "dd/MM/yyyy", null);
 
-                
+
                 string horaSeleccionada = cbHour.SelectedItem.ToString();
                 TimeOnly hora = TimeOnly.ParseExact(horaSeleccionada, "HH:mm", null);
 
                 citation.DateCitation = fecha;
                 citation.HourCitation = hora;
                 citation.NameUser = txtUser.Text;
+                Console.WriteLine(txtUser.Text);
 
                 context.Citations.Add(citation);
                 context.SaveChanges();
@@ -128,6 +129,11 @@ namespace BarberCompany.Forms
                 f.Show();
                 this.Hide();
             }
+
+        }
+
+        private void cbBarber_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

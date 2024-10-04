@@ -17,6 +17,8 @@ public partial class BarberShopContext : DbContext
 
     public virtual DbSet<Barber> Barbers { get; set; }
 
+    public virtual DbSet<BarberShop> BarberShops { get; set; }
+
     public virtual DbSet<Citation> Citations { get; set; }
 
     public virtual DbSet<ServiceBarber> ServiceBarbers { get; set; }
@@ -31,7 +33,7 @@ public partial class BarberShopContext : DbContext
     {
         modelBuilder.Entity<Barber>(entity =>
         {
-            entity.HasKey(e => e.IdBarber).HasName("PK__barber__2E4F58711C0D5495");
+            entity.HasKey(e => e.IdBarber).HasName("PK__barber__2E4F5871D74AB701");
 
             entity.ToTable("barber");
 
@@ -45,6 +47,7 @@ public partial class BarberShopContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("fatherLastName");
+            entity.Property(e => e.IdBarberShop).HasColumnName("idBarberShop");
             entity.Property(e => e.MotherLastName)
                 .HasMaxLength(10)
                 .IsUnicode(false)
@@ -53,11 +56,37 @@ public partial class BarberShopContext : DbContext
                 .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("nameBarber");
+
+            entity.HasOne(d => d.IdBarberShopNavigation).WithMany(p => p.Barbers)
+                .HasForeignKey(d => d.IdBarberShop)
+                .HasConstraintName("FK__barber__idBarber__398D8EEE");
+        });
+
+        modelBuilder.Entity<BarberShop>(entity =>
+        {
+            entity.HasKey(e => e.IdBarberShop).HasName("PK__barberSh__EE362D869F22C78E");
+
+            entity.ToTable("barberShop");
+
+            entity.Property(e => e.IdBarberShop).HasColumnName("idBarberShop");
+            entity.Property(e => e.Address)
+                .HasMaxLength(60)
+                .IsUnicode(false)
+                .HasColumnName("address");
+            entity.Property(e => e.AddressNumber).HasColumnName("addressNumber");
+            entity.Property(e => e.City)
+                .HasMaxLength(30)
+                .IsUnicode(false)
+                .HasColumnName("city");
+            entity.Property(e => e.NameBarber)
+                .HasMaxLength(25)
+                .IsUnicode(false)
+                .HasColumnName("nameBarber");
         });
 
         modelBuilder.Entity<Citation>(entity =>
         {
-            entity.HasKey(e => e.IdCitation).HasName("PK__citation__027614C959255FE8");
+            entity.HasKey(e => e.IdCitation).HasName("PK__citation__027614C9A559295B");
 
             entity.ToTable("citation");
 
@@ -65,14 +94,14 @@ public partial class BarberShopContext : DbContext
             entity.Property(e => e.DateCitation).HasColumnName("dateCitation");
             entity.Property(e => e.HourCitation).HasColumnName("hourCitation");
             entity.Property(e => e.NameUser)
-                .HasMaxLength(120)
+                .HasMaxLength(20)
                 .IsUnicode(false)
                 .HasColumnName("nameUser");
         });
 
         modelBuilder.Entity<ServiceBarber>(entity =>
         {
-            entity.HasKey(e => e.IdService).HasName("PK__serviceB__0E3EA45B287B0250");
+            entity.HasKey(e => e.IdService).HasName("PK__serviceB__0E3EA45B8B48AC7E");
 
             entity.ToTable("serviceBarber");
 
@@ -92,27 +121,31 @@ public partial class BarberShopContext : DbContext
 
         modelBuilder.Entity<ServiceUser>(entity =>
         {
-            entity.HasKey(e => e.IdServiceUser).HasName("PK__serviceU__4B46C89FC0060083");
+            entity.HasKey(e => e.IdServiceUser).HasName("PK__serviceU__4B46C89FD86516B9");
 
             entity.ToTable("serviceUser");
 
             entity.Property(e => e.IdServiceUser).HasColumnName("idServiceUser");
             entity.Property(e => e.IdBarber).HasColumnName("idBarber");
+            entity.Property(e => e.IdBarberShop).HasColumnName("idBarberShop");
             entity.Property(e => e.IdCitation).HasColumnName("idCitation");
             entity.Property(e => e.IdService).HasColumnName("idService");
-            entity.Property(e => e.IdUser).HasColumnName("idUser");
 
             entity.HasOne(d => d.IdBarberNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdBarber)
-                .HasConstraintName("FK__serviceUs__idBar__2A4B4B5E");
+                .HasConstraintName("FK__serviceUs__idBar__412EB0B6");
+
+            entity.HasOne(d => d.IdBarberShopNavigation).WithMany(p => p.ServiceUsers)
+                .HasForeignKey(d => d.IdBarberShop)
+                .HasConstraintName("FK__serviceUs__idBar__403A8C7D");
 
             entity.HasOne(d => d.IdCitationNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdCitation)
-                .HasConstraintName("FK__serviceUs__idCit__2C3393D0");
+                .HasConstraintName("FK__serviceUs__idCit__4316F928");
 
             entity.HasOne(d => d.IdServiceNavigation).WithMany(p => p.ServiceUsers)
                 .HasForeignKey(d => d.IdService)
-                .HasConstraintName("FK__serviceUs__idSer__2B3F6F97");
+                .HasConstraintName("FK__serviceUs__idSer__4222D4EF");
         });
 
         OnModelCreatingPartial(modelBuilder);

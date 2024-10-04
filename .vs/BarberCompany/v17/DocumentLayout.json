@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\models\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\models\\barbershopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formaddreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|d:\\universidad\\tecnologico\\septimo semestre\\fundamentos en la nube\\unidad 1\\barbercompany\\barbercompany\\forms\\formaddbarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{302B3D3E-7441-449A-8B5F-A6D43F021616}|BarberCompany\\BarberCompany.csproj|solutionrelative:barbercompany\\forms\\formaddbarber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAddReservation.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormAddReservation.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormAddReservation.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:58:16.526Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAddReservation.cs",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormAddReservation.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Forms\\FormAddReservation.cs",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormAddReservation.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:58:35.101Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BarberShopContext.cs",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Models\\BarberShopContext.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Models\\BarberShopContext.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Models\\BarberShopContext.cs",
+              "RelativeToolTip": "BarberCompany\\Models\\BarberShopContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T03:10:56.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAddBarber.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Forms\\FormAddBarber.cs",
+              "RelativeDocumentMoniker": "BarberCompany\\Forms\\FormAddBarber.cs",
+              "ToolTip": "D:\\Universidad\\Tecnologico\\Septimo semestre\\Fundamentos en la nube\\Unidad 1\\barberCompany\\BarberCompany\\Forms\\FormAddBarber.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BarberCompany\\Forms\\FormAddBarber.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T02:58:12.578Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
