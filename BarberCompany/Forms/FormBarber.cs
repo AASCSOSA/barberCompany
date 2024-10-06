@@ -67,5 +67,12 @@ namespace BarberCompany.Forms
             f.Show();
             this.Hide();
         }
+
+        private void lbBarberShop_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FormShopBarber f = new FormShopBarber();
+            f.Show();
+            this.Hide();
+        }
     }
 }

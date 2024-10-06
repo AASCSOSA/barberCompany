@@ -38,6 +38,7 @@
             label1 = new Label();
             flwBarbers = new FlowLayoutPanel();
             btnNewBarber = new Button();
+            lbBarberShop = new LinkLabel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -45,6 +46,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(236, 140, 43);
+            panel1.Controls.Add(lbBarberShop);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(lbBarber);
             panel1.Controls.Add(lbCities);
@@ -72,7 +74,7 @@
             lbBarber.AutoSize = true;
             lbBarber.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbBarber.LinkColor = Color.White;
-            lbBarber.Location = new Point(1728, 27);
+            lbBarber.Location = new Point(1525, 29);
             lbBarber.Name = "lbBarber";
             lbBarber.Size = new Size(130, 38);
             lbBarber.TabIndex = 5;
@@ -84,7 +86,7 @@
             lbCities.AutoSize = true;
             lbCities.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbCities.LinkColor = Color.White;
-            lbCities.Location = new Point(1621, 27);
+            lbCities.Location = new Point(1418, 29);
             lbCities.Name = "lbCities";
             lbCities.Size = new Size(78, 38);
             lbCities.TabIndex = 4;
@@ -98,7 +100,7 @@
             lbServices.AutoSize = true;
             lbServices.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbServices.LinkColor = Color.White;
-            lbServices.Location = new Point(1469, 27);
+            lbServices.Location = new Point(1266, 29);
             lbServices.Name = "lbServices";
             lbServices.Size = new Size(127, 38);
             lbServices.TabIndex = 3;
@@ -112,7 +114,7 @@
             labelHome.AutoSize = true;
             labelHome.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelHome.LinkColor = Color.White;
-            labelHome.Location = new Point(1355, 27);
+            labelHome.Location = new Point(1152, 29);
             labelHome.Name = "labelHome";
             labelHome.Size = new Size(85, 38);
             labelHome.TabIndex = 2;
@@ -154,6 +156,20 @@
             btnNewBarber.UseVisualStyleBackColor = false;
             btnNewBarber.Click += btnNewBarber_Click;
             // 
+            // lbBarberShop
+            // 
+            lbBarberShop.ActiveLinkColor = Color.Gainsboro;
+            lbBarberShop.AutoSize = true;
+            lbBarberShop.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbBarberShop.LinkColor = Color.White;
+            lbBarberShop.Location = new Point(1675, 29);
+            lbBarberShop.Name = "lbBarberShop";
+            lbBarberShop.Size = new Size(148, 38);
+            lbBarberShop.TabIndex = 9;
+            lbBarberShop.TabStop = true;
+            lbBarberShop.Text = "Sucursales";
+            lbBarberShop.LinkClicked += lbBarberShop_LinkClicked;
+            // 
             // FormBarber
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -164,6 +180,7 @@
             Controls.Add(flwBarbers);
             Controls.Add(label1);
             Controls.Add(panel1);
+            ForeColor = SystemColors.ControlText;
             Name = "FormBarber";
             Text = "FormBarber";
             WindowState = FormWindowState.Maximized;
@@ -185,5 +202,6 @@
         private Label label1;
         private FlowLayoutPanel flwBarbers;
         private Button btnNewBarber;
+        private LinkLabel lbBarberShop;
     }
 }
