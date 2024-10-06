@@ -38,6 +38,7 @@
             label1 = new Label();
             label2 = new Label();
             btnCities = new Button();
+            lbBarberShop = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pbIcon).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -56,6 +57,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(236, 140, 43);
+            panel1.Controls.Add(lbBarberShop);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(lbBarber);
             panel1.Controls.Add(lbCities);
@@ -82,7 +84,7 @@
             lbBarber.AutoSize = true;
             lbBarber.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbBarber.LinkColor = Color.White;
-            lbBarber.Location = new Point(1728, 27);
+            lbBarber.Location = new Point(1537, 27);
             lbBarber.Name = "lbBarber";
             lbBarber.Size = new Size(130, 38);
             lbBarber.TabIndex = 5;
@@ -95,7 +97,7 @@
             lbCities.AutoSize = true;
             lbCities.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbCities.LinkColor = Color.White;
-            lbCities.Location = new Point(1621, 27);
+            lbCities.Location = new Point(1430, 27);
             lbCities.Name = "lbCities";
             lbCities.Size = new Size(78, 38);
             lbCities.TabIndex = 4;
@@ -109,7 +111,7 @@
             lbServices.AutoSize = true;
             lbServices.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lbServices.LinkColor = Color.White;
-            lbServices.Location = new Point(1469, 27);
+            lbServices.Location = new Point(1278, 27);
             lbServices.Name = "lbServices";
             lbServices.Size = new Size(127, 38);
             lbServices.TabIndex = 3;
@@ -152,6 +154,20 @@
             btnCities.UseVisualStyleBackColor = false;
             btnCities.Click += btnCities_Click;
             // 
+            // lbBarberShop
+            // 
+            lbBarberShop.ActiveLinkColor = Color.Gainsboro;
+            lbBarberShop.AutoSize = true;
+            lbBarberShop.Font = new Font("Yu Gothic UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbBarberShop.LinkColor = Color.White;
+            lbBarberShop.Location = new Point(1673, 27);
+            lbBarberShop.Name = "lbBarberShop";
+            lbBarberShop.Size = new Size(148, 38);
+            lbBarberShop.TabIndex = 8;
+            lbBarberShop.TabStop = true;
+            lbBarberShop.Text = "Sucursales";
+            lbBarberShop.LinkClicked += lbBarberShop_LinkClicked;
+            // 
             // FormHome
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -184,5 +200,6 @@
         private Label label2;
         private Button btnCities;
         private PictureBox pictureBox1;
+        private LinkLabel lbBarberShop;
     }
 }

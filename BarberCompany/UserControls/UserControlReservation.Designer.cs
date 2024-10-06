@@ -34,7 +34,7 @@
             lbName = new Label();
             label2 = new Label();
             btnElimined = new Button();
-            lbTelephoneInfo = new Label();
+            lbBarberShopInfo = new Label();
             lbNameInfo = new Label();
             lbBarberInfo = new Label();
             lbDate = new Label();
@@ -93,9 +93,9 @@
             label2.ForeColor = Color.White;
             label2.Location = new Point(56, 243);
             label2.Name = "label2";
-            label2.Size = new Size(111, 31);
+            label2.Size = new Size(110, 31);
             label2.TabIndex = 4;
-            label2.Text = "Telefono :";
+            label2.Text = "Sucursal :";
             // 
             // btnElimined
             // 
@@ -110,16 +110,16 @@
             btnElimined.UseVisualStyleBackColor = false;
             btnElimined.Click += btnElimined_Click;
             // 
-            // lbTelephoneInfo
+            // lbBarberShopInfo
             // 
-            lbTelephoneInfo.AutoSize = true;
-            lbTelephoneInfo.Font = new Font("Segoe UI", 13.8F);
-            lbTelephoneInfo.ForeColor = Color.White;
-            lbTelephoneInfo.Location = new Point(192, 243);
-            lbTelephoneInfo.Name = "lbTelephoneInfo";
-            lbTelephoneInfo.Size = new Size(111, 31);
-            lbTelephoneInfo.TabIndex = 12;
-            lbTelephoneInfo.Text = "Telefono :";
+            lbBarberShopInfo.AutoSize = true;
+            lbBarberShopInfo.Font = new Font("Segoe UI", 13.8F);
+            lbBarberShopInfo.ForeColor = Color.White;
+            lbBarberShopInfo.Location = new Point(192, 243);
+            lbBarberShopInfo.Name = "lbBarberShopInfo";
+            lbBarberShopInfo.Size = new Size(110, 31);
+            lbBarberShopInfo.TabIndex = 12;
+            lbBarberShopInfo.Text = "Sucursal :";
             // 
             // lbNameInfo
             // 
@@ -183,7 +183,7 @@
             BackColor = Color.FromArgb(121, 67, 13);
             Controls.Add(lbHour);
             Controls.Add(lbId);
-            Controls.Add(lbTelephoneInfo);
+            Controls.Add(lbBarberShopInfo);
             Controls.Add(lbNameInfo);
             Controls.Add(lbBarberInfo);
             Controls.Add(lbDate);
@@ -207,7 +207,7 @@
         private Label lbName;
         private Label label2;
         private Button btnElimined;
-        private Label lbTelephoneInfo;
+        private Label lbBarberShopInfo;
         private Label lbNameInfo;
         private Label lbBarberInfo;
         private Label lbDate;

@@ -13,6 +13,7 @@ namespace BarberCompany.Forms
             CargarFechasEnComboBox();
             CargarHorasEnComboBox();
             CargarServiciosEnComboBox();
+            CargarSucursalesEnComboBox();
         }
 
         private void labelHome_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -68,6 +69,19 @@ namespace BarberCompany.Forms
                 cbBarber.DataSource = listaBarberos;
                 cbBarber.DisplayMember = "NameBarber";  // Mostrar el nombre de los barberos
                 cbBarber.ValueMember = "IdBarber";  // Valor asociado: el ID del barbero
+            }
+        }
+        private void CargarSucursalesEnComboBox()
+        {
+            using (var context = new BarberShopContext())
+            {
+                // Obtener todos las sucursales
+                var listaSucursales = context.BarberShops.ToList();
+
+                // Asignar la lista al ComboBox
+                cbBarberShop.DataSource = listaSucursales;
+                cbBarberShop.DisplayMember = "NameBarber";  // Mostrar el nombre de los barberos
+                cbBarberShop.ValueMember = "IdBarberShop";  // Valor asociado: el ID del barbero
             }
         }
         private void CargarFechasEnComboBox()

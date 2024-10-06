@@ -27,7 +27,7 @@ namespace BarberCompany.UserControls
             using (var context = new BarberShopContext())
             {
                 int id = int.Parse(lbId.Text);
-                // Buscar el barbero por su Id
+                // Buscar la cita por su Id
                 var citation = context.Citations.FirstOrDefault(b => b.IdCitation == id);
 
                 if (citation != null)
